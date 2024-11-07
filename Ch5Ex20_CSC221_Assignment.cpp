@@ -43,7 +43,7 @@ int main()
             }
             numberGuesses++;
         }
-        cout << "It took you " << numberGuesses << " tries to guess the right number!\n";
+        cout << "The number was " << myRandomNumber << ".  It took you " << numberGuesses << " tries to guess the right number!\n";
         cout << "The computer just solved it in " << solveProblem(myRandomNumber) << " tries ... want to play again?";
         cin >> answer;
         playing = flagValidation(answer);
